@@ -54,3 +54,17 @@ pytest -vvv -s tests/
 # pytest --cov
 # open htmlcov/index.html
 ```
+
+### Running using Docker
+
+Build and Run the Docker Container :
+```
+docker-compose up --build
+```
+
+This command will build the Docker image and start the container.
+Access your Flask application at http://localhost:5000 in your web browser.
+
+
+
+
